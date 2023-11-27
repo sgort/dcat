@@ -1,19 +1,31 @@
 let respecConfig = {
+
+
+  // Config parameters
   useLogo: true,
   useLabel: true,
-  license: "cc-by",
-  specStatus: "DEF",
+  license: "cc0",
+  specStatus: "WV",
   specType: "HR",
-  pubDomain: "dk",
-  shortName: "template",
+  pubDomain: "ronl",
+  
+  // shortName = Repository name
+  shortName: "dcat",
   publishDate: "2023-11-27",
   publishVersion: "0.0.1",
   
   previousPublishVersion: "",
   previousPublishDate: "",
   previousMaturity: "WV",
-  title: "DCAT ding",
+  title: "DCAT AP RONL (concept)",
+  subtitle: "Het applicatie profiel van de Europese DCAT-AP standaard voor uitwisseling met regels.overheid.nl",
+
+
+  // Content
   content: {"ch01": "informative", "ch02": "", "mermaid": ""},
+
+
+  // Team members
   editors:
     [
       {

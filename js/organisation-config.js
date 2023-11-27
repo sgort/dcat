@@ -2,7 +2,7 @@
 var organisationConfig = {
     nl_organisationName: "Logius",
     nl_organisationStylesURL: "https://gitdocumentatie.logius.nl/publicatie/respec/style/",
-    nl_organisationPublishURL: "https://gitdocumentatie.logius.nl/publicatie/",
+    nl_organisationPublishURL: "https://sgort.github.io/",
     logos: [{
         src: "https://gitdocumentatie.logius.nl/publicatie/respec/style/logos/figure-logius.svg",
         alt: "Logius",
@@ -14,9 +14,14 @@ var organisationConfig = {
 
     postProcess: [window.respecMermaid.createFigures],
 
-    latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName"],
-    thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
-    prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
+// Original config
+//    latestVersion: ["nl_organisationPublishURL", "pubDomain", "/", "shortName"],
+//    thisVersion: ["nl_organisationPublishURL", "pubDomain", "/", "specStatus", "-", "specType", "-", "shortName", "-", "publishDate"],
+//    prevVersion: ["nl_organisationPublishURL", "pubDomain", "/", "previousMaturity", "-", "specType", "-", "shortName", "-", "previousPublishDate"],
+
+    latestVersion: ["nl_organisationPublishURL", "shortName"],
+    thisVersion: ["nl_organisationPublishURL", "shortName", "-", "publishDate"],
+    prevVersion: ["nl_organisationPublishURL", "shortName", "-", "previousPublishDate"],
     useLogo: true,
     useLabel: true,
 
