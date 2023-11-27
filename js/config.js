@@ -6,13 +6,13 @@ let respecConfig = {
   specType: "HR",
   pubDomain: "dk",
   shortName: "template",
-  publishDate: "2023-06-21",
-  publishVersion: "0.0.3",
+  publishDate: "2023-11-27",
+  publishVersion: "0.0.1",
   
-  previousPublishVersion: "0.0.2",
-  previousPublishDate: "2022-06-24",
+  previousPublishVersion: "",
+  previousPublishDate: "",
   previousMaturity: "WV",
-  title: "titleText",
+  title: "DCAT ding",
   content: {"ch01": "informative", "ch02": "", "mermaid": ""},
   editors:
     [
