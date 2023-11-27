@@ -42,7 +42,7 @@ let respecConfig = {
         companyURL: "https://github.com/Logius-standaarden",
       }
     ],
-  github: "https://sgort.github.io/dcat/",
+  github: "https://github.com/sgort/dcat/",
 
 
   // Create PDF and link to file in header (optional):
