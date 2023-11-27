@@ -14,8 +14,8 @@ let respecConfig = {
   publishDate: "2023-11-27",
   publishVersion: "0.0.2",
   
-  previousPublishVersion: "0.0.1",
-  previousPublishDate: "2023-04-10",
+  previousPublishVersion: "",
+  previousPublishDate: "",
   previousMaturity: "WV",
   title: "DCAT AP RONL (concept)",
   subtitle: "Het applicatie profiel van de Europese DCAT-AP standaard voor uitwisseling met regels.overheid.nl",
@@ -42,7 +42,7 @@ let respecConfig = {
         companyURL: "https://github.com/Logius-standaarden",
       }
     ],
-  github: "https://github.com/Logius-standaarden/ReSpec-template",
+  github: "https://sgort.github.io/dcat/",
 
 
   // Create PDF and link to file in header (optional):
